@@ -47,7 +47,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://img.freepik.com/premium-psd/shirt-with-floral-pattern_53876-113677.jpg?w=360",
+    img: "https://img.freepik.com/free-photo/blue-t-shirt_125540-727.jpg?w=740&t=st=1682559972~exp=1682560572~hmac=02209d6cf365e12b5fc074009edb91c678bf2ce2ebd0cf9c722018d25b5bfaac",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const popularProducts = [
   },
   {
     id: 4,
-    img: "https://img.freepik.com/free-photo/simple-white-sweater-unisex-streetwear-apparel_53876-101504.jpg?w=360&t=st=1682556493~exp=1682557093~hmac=2b8f97ae6c52bdf88e0b108e411d59058cad6553c3cd5218d477f10687c4dafd",
+    img: "https://img.freepik.com/free-photo/green-front-sweater_125540-736.jpg?w=740&t=st=1682559890~exp=1682560490~hmac=ec1450cf9109bda3ced0a6ad69103e13312abadcf25305dcd233f4dafd82b6be",
   },
   {
     id: 5,

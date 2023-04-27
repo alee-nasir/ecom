@@ -28,8 +28,10 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eef8f8;
+  /* background-color: #eef8f8; */
   position: relative;
+
+  box-shadow: 1px 1px 3px 1px #ededed;
 
   &:hover ${Info} {
     opacity: 1;
@@ -44,7 +46,9 @@ const Container = styled.div`
 // `;
 const Image = styled.img`
   height: 70%;
+  width: 70%;
   z-index: 2;
+  object-fit: cover;
 `;
 
 const Icon = styled.div`

@@ -58,7 +58,8 @@ function Navbar() {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input /> <Search style={{ color: "grey", fontSize: "16px" }} />
+            <Input placeholder="Search" />{" "}
+            <Search style={{ color: "grey", fontSize: "16px" }} />
           </SearchContainer>
         </Left>
         <Center>
