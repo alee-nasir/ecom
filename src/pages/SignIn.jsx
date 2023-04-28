@@ -52,6 +52,8 @@ const Button = styled.button`
 const Link = styled.a`
   font-size: 12px;
   margin: 5px 0px;
+  text-decoration: underline;
+  cursor: pointer;
 `;
 
 const SignIn = () => {
@@ -63,7 +65,7 @@ const SignIn = () => {
           <Input placeholder="Username" />
           <Input placeholder="Password" />
           <Button>SIGN IN</Button>
-          <Link>FORGOT PASSWORD?</Link>
+          <Link>FORGOT PASSWORD ?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
