@@ -31,6 +31,8 @@ const SearchContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
+  flex: 1;
+  padding: 5px;
 `;
 const Center = styled.div`
   flex: 1;

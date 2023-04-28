@@ -11,6 +11,7 @@ const Container = styled.div`
 `;
 const Title = styled.h1`
   font-size: 50px;
+  margin-bottom: 20px;
 `;
 const Description = styled.p`
   font-size: 20px;
@@ -29,12 +30,14 @@ const Input = styled.input`
   border: none;
   flex: 8;
   padding-left: 20px;
+  text-align: center;
 `;
 const Button = styled.button`
   flex: 1;
   border: none;
   background-color: #5b28bb;
   color: white;
+  cursor: pointer;
 `;
 
 const Newsletter = () => {
