@@ -14,8 +14,8 @@ const Container = styled.div`
   justify-content: center;
 `;
 const Wrapper = styled.div`
-  width: 40%;
-  padding: 50px 20px;
+  width: 30%;
+  padding: 50px 10px;
   background-color: #eceaea;
   display: flex;
   flex-direction: column;
@@ -26,18 +26,18 @@ const Wrapper = styled.div`
 const Title = styled.h1`
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 20px;
 `;
 
 const Form = styled.form`
+  width: 70%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  z-index: 3;
+  flex-direction: column;
 `;
 const Input = styled.input`
   flex: 1;
-  min-width: 40%;
-  margin: 20px 10px 0px 0px;
+  min-width: 50%;
+  margin: 10px 0;
   padding: 10px;
 `;
 const Button = styled.button`
@@ -47,6 +47,11 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  margin: 10px 0px;
+`;
+const Link = styled.a`
+  font-size: 12px;
+  margin: 5px 0px;
 `;
 
 const SignIn = () => {
@@ -57,7 +62,7 @@ const SignIn = () => {
         <Form>
           <Input placeholder="Username" />
           <Input placeholder="Password" />
-          <Button>CREATE</Button>
+          <Button>SIGN IN</Button>
           <Link>FORGOT PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
