@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <Home />
-      {/* <ProductsPage />
+      <ProductsPage />
       <ProductDetails />
       <Register />
       <SignIn />
-      <Cart /> */}
+      <Cart />
     </>
   );
 }
